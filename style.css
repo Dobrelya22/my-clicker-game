@@ -76,7 +76,7 @@ body {
 }
 
 #progress-bar {
-    width: 0%;
+    width: 0;
     height: 20px;
     background-color: #4CAF50;
     border-radius: 5px;
