@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Мой Кликер</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="game">
+        <img id="coin" src="images/coin.png" alt="Монетка">
+        <p>Счёт: <span id="score">0</span></p>
+    </div>
+
+    <div id="shop">
+        <h2>Магазин</h2>
+        <button id="auto-clicker-btn">Купить автокликер (Цена: 50)</button>
+        <p>Количество автокликеров: <span id="auto-clickers-count">0</span></p>
+        <button id="double-click-btn">Удвоить клики (Цена: 100)</button>
+    </div>
+
+    <!-- Аудиоэффекты -->
+    <audio id="click-sound" src="sounds/click.mp3"></audio>
+    <audio id="purchase-sound" src="sounds/purchase.mp3"></audio>
+
+    <!-- Прогресс-бар -->
+    <div id="progress-container">
+        <div id="progress-bar"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
